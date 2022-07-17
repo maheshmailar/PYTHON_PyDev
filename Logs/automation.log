@@ -1,0 +1,37 @@
+07/17/22 07:29:25.PM: INFO: *********** Test_Login test execution started****************************
+07/17/22 07:29:33.PM: ERROR: *********** Test_Login execution Failed ****************************
+07/17/22 07:29:36.PM: INFO: *********** Test_UserManagement test execution started****************************
+07/17/22 07:29:46.PM: INFO: *********** Test_UserManagement execution Passed ****************************
+07/17/22 07:29:46.PM: INFO: *********** Test_UserManagement execution Ended ****************************
+07/17/22 07:29:48.PM: INFO: *********** Test_ddt_Login test execution started***********
+07/17/22 07:30:02.PM: INFO: ***Passed
+07/17/22 07:30:14.PM: INFO: ***Passed
+07/17/22 07:30:20.PM: INFO: *********** Test_UserManagement test execution started****************************
+07/17/22 07:30:29.PM: INFO: *********** Test_UserManagement execution Passed ****************************
+07/17/22 07:30:29.PM: INFO: *********** Test_UserManagement execution Ended ****************************
+07/17/22 07:33:29.PM: INFO: *********** Test_Login test execution started****************************
+07/17/22 07:33:36.PM: INFO: *********** Test_Login execution Passed ****************************
+07/17/22 07:33:36.PM: INFO: *********** Test_Login execution Ended ****************************
+07/17/22 07:33:38.PM: INFO: *********** Test_UserManagement test execution started****************************
+07/17/22 07:33:47.PM: INFO: *********** Test_UserManagement execution Passed ****************************
+07/17/22 07:33:47.PM: INFO: *********** Test_UserManagement execution Ended ****************************
+07/17/22 07:33:49.PM: INFO: *********** Test_ddt_Login test execution started***********
+07/17/22 07:34:02.PM: INFO: ***Passed
+07/17/22 07:34:20.PM: INFO: ***Passed
+07/17/22 07:38:33.PM: INFO: *********** Test_Login test execution started****************************
+07/17/22 07:38:41.PM: INFO: *********** Test_Login execution Passed ****************************
+07/17/22 07:38:41.PM: INFO: *********** Test_Login execution Ended ****************************
+07/17/22 07:38:43.PM: INFO: *********** Test_UserManagement test execution started****************************
+07/17/22 07:38:53.PM: INFO: *********** Test_UserManagement execution Passed ****************************
+07/17/22 07:38:53.PM: INFO: *********** Test_UserManagement execution Ended ****************************
+07/17/22 07:38:55.PM: INFO: *********** Test_ddt_Login test execution started***********
+07/17/22 07:39:11.PM: INFO: ***Passed
+07/17/22 07:39:29.PM: INFO: ***Passed
+07/17/22 07:39:42.PM: INFO: ***Passed
+07/17/22 07:39:48.PM: INFO: ***Passed
+07/17/22 07:39:48.PM: INFO: ****Login DDT test passed***
+07/17/22 07:39:49.PM: INFO: ****End OF DDT TEST***
+07/17/22 07:39:49.PM: INFO: Completed Login test
+07/17/22 07:39:53.PM: INFO: *********** Test_UserManagement test execution started****************************
+07/17/22 07:40:02.PM: INFO: *********** Test_UserManagement execution Passed ****************************
+07/17/22 07:40:02.PM: INFO: *********** Test_UserManagement execution Ended ****************************

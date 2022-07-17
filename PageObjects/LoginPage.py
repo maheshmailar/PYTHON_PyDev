@@ -1,3 +1,4 @@
+import time
 class LoginPage:
     textbox_username="username"
     textbox_password="password"
@@ -24,9 +25,10 @@ class LoginPage:
         SignIn.click()
         
     def clickSignout(self):
-        accountName=self.driver.find_element("xpath","//div[@class='info-container']")
+        accountName=self.driver.find_element("xpath",self.button_accountname)
         accountName.click()
-        logOut=self.driver.find_element("xpath","//span[text()='Log out']")
+        logOut=self.driver.find_element("xpath",self.button_logout)
         logOut.click()
-        okButton=self.driver.find_element("xpath","//button[text()='OK']")
+        time.sleep(5)
+        okButton=self.driver.find_element("xpath",self.button_closeDialogueOKBtn)
         okButton.click()

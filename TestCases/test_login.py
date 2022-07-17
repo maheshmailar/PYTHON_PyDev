@@ -16,7 +16,7 @@ class Test_Login:
         self.driver = setup
         self.driver.get(self.baseURL)
         act_title = self.driver.title      
-        if act_title=="Login123":
+        if act_title=="Login":
             assert True        
             self.driver.close()
             self.logger.info("*********** Test_Login execution Passed ****************************")    
