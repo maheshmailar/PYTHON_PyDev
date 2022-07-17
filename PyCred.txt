@@ -29,6 +29,7 @@ Before Doing Commit First time we neeto execute the below two commands:
   git commit -m "My First Commit" 
 8)To push the code from git(local) to github(Remote) repository:
   git push -u origin master
-9)
+9)To pull the request from remote repository:
+  git pull origin master
 
 
