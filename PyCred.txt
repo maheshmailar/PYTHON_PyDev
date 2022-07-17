@@ -1,0 +1,34 @@
+Jenkins:
+user: Py_Dev_Testing_9
+Pass: Srivakratunda@9
+
+Git:
+user: mahesh1.mailar@gmail.com
+pass: Srivakratunda@9
+
+To push the code to git and git repository:
+1)go to Project source (Ex:ProjectCodeBase:C:\Mahesh\Sources\PYTHON\PyDev) 
+  right click and select 'Git Bash Here' option, opens 'Git Shell' / 'Git cmd prompt'
+ 
+2) Create Local Repository: 
+   Run the cmd git init(Ex: $ git init : Initialized empty Git repository in C:/Mahesh/Sources/PYTHON/PyDev/.git/)
+3) Create Remote Repository in github: 
+   Click on new button and enter the project name and once repo created will get the URL(Ex:https://github.com/maheshmailar/PYTHON_PyDev.git)
+4)To connect local git repository with remote repository(Github):
+  git remote add origin https://github.com/maheshmailar/PYTHON_PyDev.git  and press Enter
+ 
+Before Doing Commit First time we neeto execute the below two commands:
+   git config --global user.name "maheshmailar"
+   git config --global user.email "mahesh1.mailar@gmail.com"
+   
+5)To Check the status of files (commited/not commited): 
+  git status 
+6)To add all the files to staging area: 
+   git add -A
+7)To commit the code to git repository(local repo):
+  git commit -m "My First Commit" 
+8)To push the code from git(local) to github(Remote) repository:
+  git push -u origin master
+9)
+
+

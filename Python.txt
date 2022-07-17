@@ -1,0 +1,16 @@
+to open termoinal:ctrl+alt+T
+to install webdriver manager: pip install webdriver-manager
+to install pytest: pip3 install pytest
+Constructor : The method should be named __init__ to be a constructor, not _init_. (Note the double underscores.)
+Default constructor: If you use single underscores, you merely create a method named _init_, and get a default constructor, which takes no arguments.
+To use xl test data file meed to install openpyxl package : (ex: 
+To execute the tests in parallel we need to install the 'pytest-xdist' package (Ex:pip install pytest-xdist) 
+
+To execute test cases (open terminal terminal(ctrl+alt+T))=  pytest -v -s  TestCases\test_login.py --browser chrome
+To execute test cases in parallel (open terminal terminal(ctrl+alt+T))= pytest -v -s -n=3(no of methods) TestCases\test_login.py --browser chrome
+To execute test cases and get html report = pytest -v -s --html=Reports/report.html TestCases/test_login.py --browser chrome
+When Normal click not works use Java script executer to click the element (ex: self.driver.execute_script("arguments[0].click();",self.listitem)
+
+To Group our test cases : we need to add markers to every test method (Ex: @pytest.mark.sanity, @pytest.mark.regression)
+
+To capture logs in report we have to use :pytest -s -v --html=Reports\report.html TestCases\test_login.py (--capture sys -rP:to capture pass, --capture sys -rF) --browser chrome
